@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function validate()
+		{
+			if(document.getElementById("t1").value=="")
+			{
+				alert("please provide your name !");
+				return false;
+			}
+			if (document.getElementById("t2").value=="") 
+			{
+				alert("please provide your email!");
+				return false;
+			}
+				if (document.getElementById("t3").value=="") 
+			{
+				alert("please provide your password!");
+				return false;
+			}
+	
+         if(document.getElementById("t4").value=="")
+         {
+         	alert("please provide your country !");
+         	return false;
+         }
+            return (true);
+		}
+	</script>
+	<center><fieldset><legend>LOGIN/REGISTER</legend>
+	<form name="myform">
+		<table cellspacing="2" cellpadding="2" bordercollapse="collapse">
+			<tr>
+			  <td align="right">NAME</td>
+			  <td><input type="text" name="NAME" id="t1"/></td>
+			</tr>
+			<tr>
+			  <td align="right">EMAIL</td>
+			  <td><input type="text" name="EMAIL" id="t2"/></td>
+			</tr>
+			<td align="right">password</td>
+			  <td><input type="text" name="password" id="t3"/></td>
+			</tr>
+			<tr>
+			  <td align="right">COUNTRY</td>
+			  <td>
+			  	<select name="COUNTRY" id="t4">
+                 <option value="-1" selected>[choose yours]</option>
+                 <option value="1">USA</option>
+                 <option value="1">UK</option>
+                 <option value="1">INDIA</option>
+             </select>
+			  	</td>
+	<tr>		</tr>
+	</fieldset></center>
+<td align="right"></td>
+<td><input type="button" value="submit" onclick="validate()"></td>
+		</table>
+	</form>
+</body>
+</html>

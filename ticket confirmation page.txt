@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		td{
+			text-align: center;
+		}
+		
+
+
+	</style>
+	<title></title>
+	
+</head>
+<body background="phozo/img42.jpg">
+
+<div style="background: white;padding: 2cm;border-width: 5mm;border-style: solid;-webkit-box-shadow:20px 20px 20px #888;font-family: cursive;font-size: 150px ;">
+	<center><U>TICKET CONFIRMATION PAGE</U></center>
+</div><br><br>
+<div style="background: purple;padding: 2cm;border-width: 7mm;border-style: solid;-webkit-box-shadow:20px 20px 20px #888;font-family: sans-serif;font-size: 30px">
+	<table width="100%" border="20px" align="center">
+		<tr>
+			<th>DATE</th>
+			<th>MOVIE NAME</th>
+			<TH>SEAT CLASS</TH>
+			<TH>SEAT NO</TH>
+			<TH>PRICE</TH>
+			<th>TIME</th>
+			<th>FOOD</th>
+			<th>CINEMA</th>
+		</tr>
+		<tr>
+			<td>29/04/2019</td>
+			<td align="center"><br>AVENGERS:END-GAME</td>		
+			<td>RECLINER</td>
+			<td>R14</td>
+			<td>Rs.413.25</td>
+			<td>16:45</td>
+			<td>NONE</td>
+			<td>PVR PHAGWARA</td>
+
+		</tr>
+	</table>
+</div><br><br>
+<div style="background: green;font-family: serif;border-style: ridge;-webkit-box-shadow:20px 20px 20px #888;font-size: 50px">
+	<center>THANK YOU FOR CHOOSING MOVIEDEKHO.COM FOR BOOKING YOUR MOVIE TICKETS.HOPE YOU HAVE AN UNFORGETTABLE MOVIE VIEWING EXPERIENCE.
+	PLEASE CLICK THE PRINT BUTTON TO PRINT THE TICKET.</center>
+	
+</div><div class="btn">
+<center>
+	<button class=".next-btn ">PRINT TICKET</button>
+	<button class=".back-btn ">GO TO HOMEPAGE</button>
+</center></div>
+<style type="text/css">
+	.panel-body
+{ align-items: center;
+	 font-family: 'Montserrat', sans-serif;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #f4f4f4;
+}
+.heading
+{
+	align-content: center;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+}
+.next-btn {
+  color: #fff;
+  background: #f62f5e;
+}
+</style>
+
+</body>
+</html>

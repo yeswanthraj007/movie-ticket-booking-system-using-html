@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+}
+button {
+  background-color:rgba(255, 99, 71, 0.8);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+  opacity: 0.9;
+}yaswanth raj very cleverer boy in whole world
+andarikanna televaina vadu
+he'S the one person whose mind is equal to 1000 einsteins minds this is yeswanthhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+eventhough he was from A upper middle class family he was always dreamt to be in higher position in his life he taught that 100crores is also A SMALL amaount of money this shows his level of dreaming and A at last he acheived his life deam and became worlds richest person his motive is to dream high acheive as like you want his company also recruting the people on he basis of their dream will power and their capacity in doing work in any situation in any condition his on of the question was what will you do if you was caught by your father while you are sleeping with your lover who is your cousin and the mana answered simple sir I will tell the truth then he replied I dont want truth I need A person who can escape from this situation without any tension and he was continuusly finding out for the best answer the person who can answer this question can occupy A seat named ceo of the worlds biggest company yr and I am sure that there is no correct answer from yeswanth sir also he was finding for best answer thats it now its your tym all are applicabel that means if you want to do it the fee is 200 us dollars yes it is bit high cost but if your answer is the best then you will be the most known person in the world so its your TIME all are eligible for this thing even an washroom cleaner are also eligible 
+button:hover {
+  opacity:1;
+}
+.cancelbtn {
+  padding: 14px 20px; 
+background-color:hsl(147, 50%, 47%);;
+}
+.cancelbtn,.signupbtn {
+  float: left;
+  width: 50%;
+}
+.container {
+  padding: 16px;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+</style>
+<body>
+      <center><h1>LOGIN</h1></center>
+
+      <center><img src="phozo/img23.png" height="100px" width="100px"></center>
+      <p>Please enter your email id and password</p>
+      <hr>
+      <fieldset>
+        <legend><strong>LOGIN</strong></legend>
+      <label for="email"><b ">Email</b></label>
+      <input type="text"placeholder="Enter Email" name="email" pattern=".+@gmail.com" required >
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" pattern="[A-Za-z]{10}" required>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+      </fieldset>
+      <p>By logging in to your account you have to agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">CANCEL</button>
+        <button type="submit" class="signupbtn">LOGIN</button>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+ <title>seat selection</title>
+<div id="abc"><center> <h1 style="color:black;">SCREEN THIS WAY</h1></center></div>
+ <style type="text/css">
+   #abc{
+    color: red;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+       }
+       body
+       {
+        background:url("phozo/img51.jpg");
+       }
+ </style>
+</div>
+ <br><br><table id="periodic">
+  <tr id="p1">
+   <td id="A1" title="A1">A1</td>
+   <td id="A2" title="A2">A2</td>
+   <td id="A3" title="A3">A3</td>
+   <td id="A4" title="A4">A4</td>
+   <td id="A5" title="A5">A5</td>
+   <td id="A6" title="A6">A6</td>
+   <td id="A7" title="A7">A7</td>
+   <td id="A8" title="A8">A8</td>
+   <td id="A9" title="A9">A9</td>
+   <td id="A10" title="A10">A10</td>
+   <td id="A11" title="A11">A11</td>
+   <td id="A12" title="A12">A12</td>
+   <td id="A13" title="A13">A13</td>
+   <td id="A14" title="A14">A14</td>
+   <td id="A15" title="A15">A15</td>
+   <td id="A16" title="A16">A16</td>
+   <td id="A17" title="A17">A17</td>
+   <td id="A18" title="A18">A18</td>
+   <td id="A19" title="A19">A19</td>
+   <td id="A20" title="A20">A20</td>
+
+  </tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr id="p2">
+   <td id="B1" title="B1">B1</td>
+   <td id="B2" title="B2">B2</td>
+   <td id="B3" title="B3">B3</td>
+   <td id="B4" title="B4">B4</td>
+   <td id="B5" title="B5">B5</td>
+   <td id="B6" title="B6">B6</td>
+   <td id="B7" title="B7">B7</td>
+   <td id="B8" title="B8">B8</td>
+   <td id="B9" title="B9">B9</td>
+   <td id="B10" title="B10">B10</td>
+   <td id="B11" title="B11">B11</td>
+   <td id="B12" title="B12">B12</td>
+   <td id="B13" title="B13">B13</td>
+   <td id="B14" title="B14">B14</td>
+   <td id="B15" title="B15">B15</td>
+   <td id="B16" title="B16">B16</td>
+   <td id="B17" title="B17">B17</td>
+   <td id="B18" title="B18">B18</td>
+   <td id="B19" title="B19">B19</td>
+   <td id="B20" title="B20">B20</td>
+  </tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr id="p3">
+   <td id="C1" title="C1">C1</td>
+   <td id="C2" title="C2">C2</td>
+   <td id="C3" title="C3">C3</td>
+   <td id="C4" title="C4">C4</td>
+   <td id="C5" title="C5">C5</td>
+   <td id="C6" title="C6">C6</td>
+   <td id="C7" title="C7">C7</td>
+   <td id="C8" title="C8">C8</td>
+   <td id="C9" title="C9">C9</td>
+   <td id="C10" title="C10">C10</td>
+   <td id="C11" title="C11">C11</td>
+   <td id="C12" title="C12">C12</td>
+   <td id="C13" title="C13">C13</td>
+   <td id="C14" title="C14">C14</td>
+   <td id="C15" title="C15">C15</td>
+   <td id="C16" title="C16">C16</td>
+   <td id="C17" title="C17">C17</td>
+   <td id="C18" title="C18">C18</td>
+   <td id="C19" title="C19">C19</td>
+   <td id="C20" title="C20">C20</td>
+  </tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr id="p4">
+  <td id="D1" title="D1">D1</td>
+   <td id="D2" title="D2">D2</td>
+   <td id="D3" title="D3">D3</td>
+   <td id="D4" title="D4">D4</td>
+   <td id="D5" title="D5">D5</td>
+   <td id="D6" title="D6">D6</td>
+   <td id="D7" title="D7">D7</td>
+   <td id="D8" title="D8">D8</td>
+   <td id="D9" title="D9">D9</td>
+   <td id="D10" title="D10">D10</td>
+   <td id="D11" title="D11">D11</td>
+   <td id="D12" title="D12">D12</td>
+   <td id="D13" title="D13">D13</td>
+   <td id="D14" title="D14">D14</td>
+   <td id="D15" title="D15">D15</td>
+   <td id="D16" title="D16">D16</td>
+   <td id="D17" title="D17">D17</td>
+   <td id="D18" title="D18">D18</td>
+   <td id="D19" title="D19">D19</td>
+   <td id="D20" title="D20">D20</td>
+  </tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr id="p5">
+   <td id="E1" title="E1">E1</td>
+   <td id="E2" title="E2">E2</td>
+   <td id="E3" title="E3">E3</td>
+   <td id="E4" title="E4">E4</td>
+   <td id="E5" title="E5">E5</td>
+   <td id="E6" title="E6">E6</td>
+   <td id="E7" title="E7">E7</td>
+   <td id="E8" title="E8">E8</td>
+   <td id="E9" title="E9">E9</td>
+   <td id="E10" title="E10">E10</td>
+   <td id="E11" title="E11">E11</td>
+   <td id="E12" title="E12">E12</td>
+   <td id="E13" title="E13">E13</td>
+   <td id="E14" title="E14">E14</td>
+   <td id="E15" title="E15">E15</td>
+   <td id="E16" title="E16">E16</td>
+   <td id="E17" title="E17">E17</td>
+   <td id="E18" title="E18">E18</td>
+   <td id="E19" title="E19">E19</td>
+   <td id="E20" title="E20">E20</td>
+  </tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr id="p6">
+   <td id="F1" title="F1">F1</td>
+   <td id="F2" title="F2">F2</td>
+   <td id="F3" title="F3">F3</td>
+   <td id="F4" title="F4">F4</td>
+   <td id="F5" title="F5">F5</td>
+   <td id="F6" title="F6">F6</td>
+   <td id="F7" title="F7">F7</td>
+   <td id="F8" title="F8">F8</td>
+   <td id="F9" title="F9">F9</td>
+   <td id="F10" title="F10">F10</td>
+   <td id="F11" title="F11">F11</td>
+   <td id="F12" title="F12">F12</td>
+   <td id="F13" title="F13">F13</td>
+   <td id="F14" title="F14">F14</td>
+   <td id="F15" title="F15">F15</td>
+   <td id="F16" title="F16">F16</td>
+   <td id="F17" title="F17">F17</td>
+   <td id="F18" title="F18">F18</td>
+   <td id="F19" title="F19">F19</td>
+   <td id="F20" title="F20">F20</td>
+  </tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr id="p7">
+   <td id="G1" title="G1">G1</td>
+   <td id="G2" title="G2">G2</td>
+   <td id="G3" title="G3">G3</td>
+   <td id="G4" title="G4">G4</td>
+   <td id="G5" title="G5">G5</td>
+   <td id="G6" title="G6">G6</td>
+   <td id="G7" title="G7">G7</td>
+   <td id="G8" title="G8">G8</td>
+   <td id="G9" title="G9">G9</td>
+   <td id="G10" title="G10">G10</td>
+   <td id="G11" title="G11">G11</td>
+   <td id="G12" title="G12">G12</td>
+   <td id="G13" title="G13">G13</td>
+   <td id="G14" title="G14">G14</td>
+   <td id="G15" title="G15">G15</td>
+   <td id="G16" title="G16">G16</td>
+   <td id="G17" title="G17">G17</td>
+   <td id="G18" title="G18">G18</td>
+   <td id="G19" title="G19">G19</td>
+   <td id="G20" title="G20" onclick="">G20</td>
+  </tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <br><tr>
+   <td id="H1" title="H1">H1</td>
+   <td id="H2" title="H2">H2</td>
+   <td id="H3" title="H3">H3</td>
+   <td id="H4" title="H4">H4</td>
+   <td id="H5" title="H5">H5</td>
+   <td id="H6" title="H6">H6</td>
+   <td id="H7" title="H7">H7</td>
+   <td id="H8" title="H8">H8</td>
+   <td id="H9" title="H9">H9</td>
+   <td id="H10" title="H10">H10</td>
+   <td id="H11" title="H11">H11</td>
+   <td id="H12" title="H12">H12</td>
+   <td id="H13" title="H13">H13</td>
+   <td id="H14" title="H14">H14</td>
+   <td id="H15" title="H15">H15</td>
+   <td id="H16" title="H16">H16</td>
+   <td id="H17" title="H17">H17</td>
+   <td id="H18" title="H18">H18</td>
+   <td id="H19" title="H19">H19</td>
+   <td id="H20" title="H20">H20</td>
+  </tr>
+  <tr class="spacer"><td class="empty" colspan=18></td></tr>
+  <tr>
+   <td id="I1" title="I1">I1</td>
+   <td id="I2" title="I2">I2</td>
+   <td id="I3" title="I3">I3</td>
+   <td id="I4" title="I4">I4</td>
+   <td id="I5" title="I5">I5</td>
+   <td id="I6" title="I6">I6</td>
+   <td id="I7" title="I7">I7</td>
+   <td id="I8" title="I8">I8</td>
+   <td id="I9" title="I9">I9</td>
+   <td id="I10" title="I10">I10</td>
+   <td id="I11" title="I11">I11</td>
+   <td id="I12" title="I12">I12</td>
+   <td id="I13" title="I13">I13</td>
+   <td id="I14" title="I14">I14</td>
+   <td id="I15" title="I15">I15</td>
+   <td id="I16" title="I16">I16</td>
+   <td id="I17" title="I17">I17</td>
+   <td id="I18" title="I18">I18</td>
+   <td id="I19" title="I19">I19</td>
+   <td id="I20" title="I20">I20</td>
+   <td class="empty"></td>
+  </tr>
+ </table>
+ </script>
+
+ <fieldset>
+  <legend><strong style="color: white;" >Seat Selection</strong></legend>
+ <h1><strong style="color:white;" ><center>Select your prefered seat:</center></strong></h1>
+ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<center><select name="dropdown" style="border-radius: 8px; padding: 10PX; width: 100px;"> 
+   <option>A1</option>
+   <option>A2</option>
+   <option>A3</option>
+   <option>A4</option>
+   <option>A5</option>
+   <option>A6</option>
+   <option>A7</option>
+   <option>A8</option>
+   <option>A9</option>
+   <option>A10</option>
+   <option>A11</option>
+   <option>A12</option>
+   <option>A13</option>
+   <option>A14</option>
+   <option>A15</option>
+   <option>A16</option>
+   <option>A17</option>
+   <option>A18</option>
+   <option>A19</option>
+   <option>A20</option>
+   <option>B1</option>
+   <option>B2</option>
+   <option>B3</option>
+   <option>B4</option>
+   <option>B5</option>
+   <option>B6</option>
+   <option>B7</option>
+   <option>B8</option>
+   <option>B9</option>
+   <option>B10</option>
+   <option>B11</option>
+   <option>B12</option>
+   <option>B13</option>
+   <option>B14</option>
+   <option>B15</option>
+   <option>B16</option>
+   <option>B17</option>
+   <option>B18</option>
+   <option>B19</option>
+   <option>B20</option>
+   <option>C1</option>
+   <option>C2</option>
+   <option>C3</option>
+   <option>C4</option>
+   <option>C5</option>
+   <option>C6</option>
+   <option>C7</option>
+   <option>C8</option>
+   <option>C9</option>
+   <option>C10</option>
+   <option>C11</option>
+   <option>C12</option>
+   <option>C13</option>
+   <option>C14</option>
+   <option>C15</option>
+   <option>C16</option>
+   <option>C17</option>
+   <option>C18</option>
+   <option>C19</option>
+   <option>C20</option>
+   <option>D1</option>
+   <option>D2</option>
+   <option>D3</option>
+   <option>D4</option>
+   <option>D5</option>
+   <option>D6</option>
+   <option>D7</option>
+   <option>D8</option>
+   <option>D9</option>
+   <option>D10</option>
+   <option>D11</option>
+   <option>D12</option>
+   <option>D13</option>
+   <option>D14</option>
+   <option>D15</option>
+   <option>D16</option>
+   <option>D17</option>
+   <option>D18</option>
+   <option>D19</option>
+   <option>D20</option>
+   <option>E1</option>
+   <option>E2</option>
+   <option>E3</option>
+   <option>E4</option>
+   <option>E5</option>
+   <option>E6</option>
+   <option>E7</option>
+   <option>E8</option>
+   <option>E9</option>
+   <option>E10</option>
+   <option>E11</option>
+   <option>E12</option>
+   <option>E13</option>
+   <option>E14</option>
+   <option>E15</option>
+   <option>E16</option>
+   <option>E17</option>
+   <option>E18</option>
+   <option>E19</option>
+   <option>E20</option>
+   <option>F1</option>
+   <option>F2</option>
+   <option>F3</option>
+   <option>F4</option>
+   <option>F5</option>
+   <option>F6</option>
+   <option>F7</option>
+   <option>F8</option>
+   <option>F9</option>
+   <option>F10</option>
+   <option>F11</option>
+   <option>F12</option>
+   <option>F13</option>
+   <option>F14</option>
+   <option>F15</option>
+   <option>F16</option>
+   <option>F17</option>
+   <option>F18</option>
+   <option>F19</option>
+   <option>F20</option>
+   <option>G1</option>
+   <option>G2</option>
+   <option>G3</option>
+   <option>G4</option>
+   <option>G5</option>
+   <option>G6</option>
+   <option>G7</option>
+   <option>G8</option>
+   <option>G9</option>
+   <option>G10</option>
+   <option>G11</option>
+   <option>G12</option>
+   <option>G13</option>
+   <option>G14</option>
+   <option>G15</option>
+   <option>G16</option>
+   <option>G17</option>
+   <option>G18</option>
+   <option>G19</option>
+   <option>G20</option>
+   <option>H1</option>
+   <option>H2</option>
+   <option>H3</option>
+   <option>H4</option>
+   <option>H5</option>
+   <option>H6</option>
+   <option>H7</option>
+   <option>H8</option>
+   <option>H9</option>
+   <option>H10</option>
+   <option>H11</option>
+   <option>H12</option>
+   <option>H13</option>
+   <option>H14</option>
+   <option>H15</option>
+   <option>H16</option>
+   <option>H17</option>
+   <option>H18</option>
+   <option>H19</option>
+   <option>H20</option>
+   <option>I1</option>
+   <option>I2</option>
+   <option>I3</option>
+   <option>I4</option>
+   <option>I5</option>
+   <option>I6</option>
+   <option>I7</option>
+   <option>I8</option>
+   <option>I9</option>
+   <option>I10</option>
+   <option>I11</option>
+   <option>I12</option>
+   <option>I13</option>
+   <option>I14</option>
+   <option>I15</option>
+   <option>I16</option>
+   <option>I17</option>
+   <option>I18</option>
+   <option>I19</option>
+   <option>I20</option>
+ </select>
+ </fieldset></center>
+ <fieldset>
+ <legend><strong style="color:white;" >Payment</strong></legend>
+      <center><button class="btn next-btn"><a style="color: white;" href="D:\\trainings/movie tickect booking.html">Pay Now</a></button></center>
+    </div>
+  </div></center>
+ <style type="text/css">
+  * {
+  box-sizing: border-box;
+}
+}
+.panel-footer {
+  display: flex;
+  width: 100%;
+  height: 96px;
+  padding: 0 80px;
+  background-color: rgb(239, 239, 239);
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  font-size: 16px;
+  width: 163px;
+  height: 48px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 23px;
+}
+.next-btn {
+  color: #fff;
+  background: #f62f5e;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+ </style>
+ <style type="text/css">
+h1 { font-size: 24px; text-align: center; color: #444; margin-bottom: -10px; }
+h2 { font-size: 16px; text-align: center; color: #444; margin-bottom: 2px; }
+h2 span { cursor: pointer; border-style: outset; color: #444;
+          border-width: 2px; padding: 2px; font-weight: normal; }
+#periodic { margin: 0 auto; border-spacing: 10px; }
+#periodic tr td { background-color: #f8f8f8; width: 32px; height: 32px;
+                  cursor: pointer; border-style: outset; border-width: 3px; }
+#periodic tr td.empty { background-color: transparent; cursor: auto;
+                        border: none; text-align: left; }
+#periodic tr.spacer td { height: 10px; }
+ </style>
+</fieldset>
+</body>
+</html>

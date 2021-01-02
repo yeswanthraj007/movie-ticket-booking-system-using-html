@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html style="background:white;">
+<head>
+	<title></title>
+
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body style="background:grey;padding:5cm;border-width: 1cm;border-style: solid;border-color: black;"><center>
+	<div class="payment-valid">
+		<div class="panel-body">
+			<h1 class="heading" align="center"><U><center>MASTERSECURE CARD VALIDATION PAGE</center></U></h1></div><br>
+		<div id="p1"><pre>We require you to enter the pin for the your card 
+ in the form given below.  </pre></div>	
+			              <div > <input type="checkbox" required name="terms"> I Agree to the TERMS AND CONDITIONS. </div><br><br>
+
+			                Enter PIN:&nbsp&nbsp<input type="password" id="t2">
+			                <br><br>
+			                <button  class="btn next-btn" onclick="f1()" onclick="location.href="><a style="color: white;" href="D:\\trainings/tickettconfirmation.html">SUBMIT</a></button>
+		</div>
+		
+	
+	<script type="text/javascript">
+		
+
+		function f1()
+		{	
+			if(document.getElementById("t2")==""|| isNaN(document.getElementById("t2").value)||document.getElementById("t2").value.length!=4)
+		{
+			alert("PLEASE ENTER A VALID PIN ");
+			return false;
+		}
+
+		}
+	</script>
+	<style type="text/css">
+		.btn {
+  font-size: 16px;
+  width: 163px;
+  height: 48px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 23px;
+}
+ 
+.back-btn {
+  color: #f62f5e;
+  background: #fff;
+}
+ 
+.next-btn {
+  color: #fff;
+  background: #f62f5e;
+}
+ 
+.btn:focus {
+  outline: none;
+}
+ 
+.btn:hover {
+  transform: scale(1.1);
+}
+	</style>
+</center>
+</body>
+</html>
